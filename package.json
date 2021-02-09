@@ -1,0 +1,22 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "description": "- Mampu memecahkan masalah yang diberikan\r - Mengerti logika `looping`\r - Mampu menggabungkan konsep `looping/iteration` dan `conditional` didalam sebuah masalah\r ## Directions\r Diberikan sebuah variabel `kata` bertipe string. Buatlah program yang dapat mengecek huruf yang terdapat pada kata tersebut dan hasil dari program tersebut adalah menghasilkan kata baru dimana huruf-huruf vokal yang terdapat pada `kata` akan diganti menjadi '$'",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      "hacktiv8-reporter"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hacktiv8-reporter": "^1.1.3",
+    "hacktiv8-restriction": "^1.0.7",
+    "jest": "^26.1.0"
+  }
+}
